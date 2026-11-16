@@ -1,0 +1,105 @@
+name: omniflow
+description: A mobile application for business management and point of sale (POS). It targets shops and small businesses that need to manage products, stock, sales, cash registers, users, and financial reporting from one app.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.9
+
+  # Navigation
+  go_router: ^17.3.0
+
+  # Networking
+  internet_connection_checker_plus: ^3.0.1
+  dio: ^5.9.2
+
+  # State Management
+  fpdart: ^1.2.0
+  equatable: ^2.0.8
+  flutter_hooks: ^0.21.3+1
+  flutter_riverpod: ^3.3.1
+  hooks_riverpod: ^3.3.1
+
+  # Backend – Firebase
+
+  # Backend – Supabase
+
+  # Backend – Appwrite
+  appwrite: ^25.0.0
+
+  # Storage
+  hive_ce: ^2.19.3
+  hive_ce_flutter: ^2.3.4
+  shared_preferences: ^2.5.5
+  flutter_secure_storage: ^10.3.1
+
+  # Images & SVG
+  cached_network_image: ^3.4.1
+  flutter_svg: ^2.3.0
+
+  # Icons
+  hugeicons: ^1.1.7
+
+  # Shimmer / Skeleton
+  skeletonizer: ^2.1.3
+
+  # Responsive UI
+  flutter_screenutil: ^5.9.3
+
+  # Animations
+  flutter_animate: ^4.5.2
+  smooth_page_indicator: ^2.0.1
+
+  # Environment
+  flutter_dotenv: ^6.0.1
+
+  # Logging
+  logger: ^2.7.0
+
+  # Media
+  image_picker: ^1.2.2
+
+  # Utilities
+  path_provider: ^2.1.5
+  url_launcher: ^6.3.2
+  share_plus: ^12.0.2
+  permission_handler: ^12.0.3
+  geolocator: ^14.0.2
+
+  # Device & System
+  device_info_plus: ^12.4.0
+  upgrader: ^13.5.0
+
+  # Localization
+  easy_localization: ^3.0.8
+
+  flutter_native_splash: ^2.4.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.15.0
+  hive_ce_generator: ^1.11.2
+
+dependency_overrides:
+  # Riverpod 3.x requires a newer test_api than what Flutter SDK pins.
+  # This override allows resolution while remaining compatible with flutter_test.
+  test_api: 0.7.12
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    # - assets/images/
+    - assets/icons/
+    - assets/translations/
+    # - .env
