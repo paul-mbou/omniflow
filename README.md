@@ -3,7 +3,14 @@
 **Shop management and point of sale for a small business.**
 Caisse, catalogue, factures et rapports dans une seule application mobile.
 
-![Omniflow](docs/portfolio/cover.png)
+<p>
+  <img src="docs/portfolio/home.png" width="220" alt="Omniflow accueil" />
+  <img src="docs/portfolio/caisse.png" width="220" alt="Omniflow caisse" />
+  <img src="docs/portfolio/produits.png" width="220" alt="Omniflow produits" />
+  <img src="docs/portfolio/rapports.png" width="220" alt="Omniflow rapports" />
+</p>
+
+Captured on an Android emulator from the debug build. The names and amounts on these screens are sample placeholders in the UI, not a live shop.
 
 ## What it does
 
